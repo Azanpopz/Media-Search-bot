@@ -265,18 +265,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages")]
                 )
 
-                await query.edit_message_reply_markup( 
-                    reply_markup=InlineKeyboardMarkup(buttons)
-                )
-                return
-        elif query.data == "about":
-            buttons = [
-                [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/munnipopz'),
-                    InlineKeyboardButton('Source Code', url='https://t.me/mazhatthullikal')
-                ]
-                ]
-            
+                            
 
 
 
