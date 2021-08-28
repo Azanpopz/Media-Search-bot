@@ -31,7 +31,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("🤖ᴊᴏɪɴ ɢᴏʀᴜᴘ", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -86,7 +86,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("🤖ᴊᴏɪɴ ɢᴏʀᴜᴘ", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -99,8 +99,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/MOVIESLOKAM2")
+                        InlineKeyboardButton("ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("ɢᴏʀᴜᴘ", url="https://t.me/MOVIESLOKAM2")
                     ]
                 ]
             )
