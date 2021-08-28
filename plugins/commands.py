@@ -27,14 +27,14 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**ᴘʟᴇᴀꜱᴇ ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖ᴊᴏɪɴ ɢᴏʀᴜᴘ", url=invite_link.invite_link)
+                                InlineKeyboardButton("🔓ᴊᴏɪɴ ɢᴏʀᴜᴘ🔓", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔄ᴛʀʏ ᴀɢᴀɪɴ🔄", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/mazhatthullikal')
+                        InlineKeyboardButton('🔎ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ🔎', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('🔓ɢᴏʀᴜᴘ🔓', url='https://t.me/mazhatthullikal')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -86,7 +86,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖ᴊᴏɪɴ ɢᴏʀᴜᴘ", url=invite_link.invite_link)
+                        InlineKeyboardButton("🔓ᴊᴏɪɴ ɢᴏʀᴜᴘ🔓", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -99,8 +99,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("ɢᴏʀᴜᴘ", url="https://t.me/MOVIESLOKAM2")
+                        InlineKeyboardButton("🔎ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("📽ɢᴏʀᴜᴘ📽", url="https://t.me/MOVIESLOKAM2")
                     ]
                 ]
             )
