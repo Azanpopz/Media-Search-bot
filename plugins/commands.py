@@ -102,12 +102,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("Other Bots", url="https://t.me/MOVIESLOKAM2")
                     ],
-                    [
-                        InlineKeyboardButton("About", callback_data="about")
-                    ]
-                ]
-            )
-        )
+                    
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
