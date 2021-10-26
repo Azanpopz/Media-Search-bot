@@ -105,6 +105,13 @@ async def start(bot, cmd):
                 ]
             )
         )
+    else:
+        await cmd.reply_photo(
+            client.send_photo(
+    chat_id=message.chat.id,
+    photo=photo
+)
+message.reply_photo(photo)
               
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
