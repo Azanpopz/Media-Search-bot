@@ -106,6 +106,12 @@ async def start(bot, cmd):
             )
         )
                     
+client.send_photo(
+    chat_id=message.chat.id,
+    photo=photo
+)
+
+   message.reply_photo(https://telegra.ph/file/2a44eb66444da7a0ecbec.jpg)
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
