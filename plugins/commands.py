@@ -105,18 +105,6 @@ async def start(bot, cmd):
                 ]
             )
         )
-   else:
-        await cmd.reply_text(
-            START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-            client.send_photo(
-    chat_id=message.chat.id,
-    photo=photo
-)
               
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
